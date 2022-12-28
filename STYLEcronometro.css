@@ -1,0 +1,35 @@
+html{
+	margin: 0;
+}
+body{
+	background: #2f2e3a;
+	width: 99vw;
+	height: 50vh;
+	margin: 0;
+}
+.bloco{
+	color: white;
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+	margin: 35vh;
+	
+
+}
+button{
+	color: white;
+	border-radius: 10%;
+	border:none;
+	width: 5em;
+	margin: 0.2em;
+	font-family: cursive;
+	font-size: 20px;
+}
+.startbtn{background: forestgreen;} .startbtn:hover{color:skyblue; cursor: pointer;}
+.pausebtn{background: #bbbb0a;} .pausebtn:hover{color: skyblue; cursor: pointer;}
+.stopbtn{background: #911515;} .stopbtn:hover{color: skyblue; cursor: pointer}
+span{
+	margin: 1px;
+	font-size: 1.44em;
+	font-family: cursive;, sans-serif;
+}
